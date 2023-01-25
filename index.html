@@ -16,17 +16,20 @@
 </head>
 
 <body>
-    <h1>The Writing Coach</h1>
-    <h2>...</h2>
+    <header>
+        <h1>The Writing Coach</h1>
+        <h2>Elevate Your Writing</h2>
+    </header>
     <div>
-        <form action="get">
-            <textarea class="text" id="input-area" placeholder="Enter your text here..."></textarea>
-            <button for="input-button" class="button" >Check</button>
+        <form action="" type="get" id="input-form">
+            <textarea class="text" id="input-area" cols="30" rows="10" placeholder="Enter your text here..."></textarea>
+            <input type="submit" value="Check" class="button">
         </form>
-        <form action="get">
-            <textarea class="text" placeholder="Result"></textarea>
-            <button class="button">Clear</button>
+        <form action="" id="output-form">
+            <textarea class="text" cols="30" rows="10" placeholder="Result" disabled></textarea>
+            <input type="button" value="Clear" class="button" id="button-secondary">
         </form>
     </div>
+
 </body>
 </html>
