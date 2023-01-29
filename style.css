@@ -6,6 +6,7 @@
 html{
     scroll-behavior: smooth;
     font-family: 'Montserrat', sans-serif;
+    background-color: #212E3B;
     background: url(images/randomLetters.jpg);
     background-size: 100%;
     text-decoration: none;
@@ -49,7 +50,7 @@ div{
     font-size: 1.75rem;
     width: 16rem;
     color: white;
-    background-color: rgba(0, 255, 255, 0);
+    background-color: rgba(0, 255, 255, 0.8);
 }
 .button:hover{
     background-color: rgba(0, 255, 255, 0.2);
@@ -61,7 +62,6 @@ div{
 }
 #button-secondary:hover{
     background-color: #c90606;
-    cursor: pointer;
 }
 form{
     display: flex;
